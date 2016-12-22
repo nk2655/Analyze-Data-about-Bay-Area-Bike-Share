@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Investigation of survival from Titanic</title>
+    <script src="js/d3.v3.min.js"></script>
+    <script src="js/dimple.v2.2.0.min.js"></script>
+  </head>
+  
+  <body class="container">
+	<h3>Make Effective Data Visualization Titanic</h3>
+    <p>by NK Zhehua Zou</p>
+ 
+    <h4>About Dataset</h4>
+    <p>This data set contains 891 passengers with 12 variables.</p>
+    
+	<h4>Analysis Section</h4>
+    <ul><li>Let's focus on these 3 variables: Pclass, sex and age.</li>
+	<li>Wrangle data from 'titanic_data.csv' to 'titanic.csv' by 'data_wrange.py'.</li>
+	<li>Use excel to remove index from 'titanic.csv'.</li>
+	<li>Create new data 'pclass.csv', 'sex.csv' and 'age.csv' by countifs function in excel.</li>
+	<li>Invesigate and visulize date by 'main.js'.</li></ul>
+
+    <div class="row">
+        <div id="chart1"></div>
+	</div>
+    <div class="row">
+        <div id="chart2"></div>
+	</div>
+    <div class="row">
+        <div id="chart3"></div>
+	</div>
+	<script src="js/main.js"></script>	
+
+	<h4>Conclusion</h4>
+    <ul>
+<li>Less half of passengers were survived from the Titanic.</li>
+<li>The survival rate of 1st class passengers was much greater than that of 3rd class passengers.</li>
+<li>The survival rate of female passengers was much greater than that of male passengers.</li>
+<li>A higher percentage of children made it through as compared to the adults.</li>
+
+   </ul>
+  </body>
+</html> 
